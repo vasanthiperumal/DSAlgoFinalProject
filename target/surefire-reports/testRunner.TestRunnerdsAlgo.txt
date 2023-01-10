@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunnerdsAlgo
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 35.45 sec <<< FAILURE!
+User Launches the Get started page and navigates to Home by clicking on "Get started" Button(User validates Get Started page)  Time elapsed: 1.053 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'It should be redirected to home page with title "Numpy Ninja"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("It should be redirected to home page with title {string}")
+public void it_should_be_redirected_to_home_page_with_title(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+User Enter username,password and confirmpassword as Data Driven #1(User validate Registration page)  Time elapsed: 6.334 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.RegistrationStepdefinition.it_should_open_home_page_with_an_alert_messege(RegistrationStepdefinition.java:39)
+	at ✽.It should open home page with an Alert messege "New Account Created."(file:///E:/Vasanthi-SDET/WorkspaceNew/dsAlgoAutomationProject/src/test/resources/Features/TS02_RegistrationPage.feature:26)
+
+User Enter username,password and confirmpassword as Data Driven #2(User validate Registration page)  Time elapsed: 6.139 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.RegistrationStepdefinition.it_should_open_home_page_with_an_alert_messege(RegistrationStepdefinition.java:39)
+	at ✽.It should open home page with an Alert messege "New Account Created."(file:///E:/Vasanthi-SDET/WorkspaceNew/dsAlgoAutomationProject/src/test/resources/Features/TS02_RegistrationPage.feature:26)
+
+User enters username, password as data driven(User validate LoginPage)  Time elapsed: 6.211 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at stepDefinition.LoginPageStepdefinition.it_should_open_a_home_page(LoginPageStepdefinition.java:37)
+	at ✽.it should open a Home page with "Successfully Logged In"(file:///E:/Vasanthi-SDET/WorkspaceNew/dsAlgoAutomationProject/src/test/resources/Features/TS03_LoginPage.feature:28)
+
