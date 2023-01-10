@@ -1,0 +1,13 @@
+pageObjectModel\RegistrationPage.class
+pageObjectModel\DataStructurePage.class
+stepDefinition\ArrayStepDefinition.class
+stepDefinition\LoginPageStepdefinition.class
+pageObjectModel\GetStartedPage.class
+testRunner\TestRunnerdsAlgo.class
+stepDefinition\DriverManager.class
+stepDefinition\DataStructureStepDefinition.class
+pageObjectModel\LoginPage.class
+stepDefinition\GetStartedStepdefinition.class
+stepDefinition\Util.class
+pageObjectModel\ArrayPage.class
+stepDefinition\RegistrationStepdefinition.class
